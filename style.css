@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h3 {
+    margin: 50px 0px 20px 0px;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.intro h5 {
+    margin: 25px 0px 35px 0px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.intro button {
+    font-size: 20 px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #33C3F0;
+    background-color: #33C3F0;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.intro button:hover {
+    background-color: #0bb7ec;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    margin: 80px auto 0;
+}
+
+.firstColumn {
+    width: 40%;
+}
+
+.firstColumn img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.firstColumn p {
+    font-size: 21px;
+    padding: 0px 15px;
+}
+
+.firstColumn h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 30px 0px 40px 0px;
+    padding: 0px 15px;
+}
+
+.firstColumn ul {
+    margin: 0;
+    padding: 0px 40px;
+}
+
+.firstColumn li {
+    font-size: 20px;
+    list-style: circle;
+    margin: 15px 0px;
+}
+
+.secondColumn {
+    padding: 0px 0px 0px 30px;
+    width: 50%;
+    margin: 0px 20px 0px 50px;
+}
+
+.secondColumn h4 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.secondColumn p {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.row2 {
+    text-align: center;
+}
+
+.row2 h5 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin: 30px 0px 40px 0px;
+    line-height: 23px;
+}
+
+.row2 iframe {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin: 50px 0px;
+    text-align: center;
+}
